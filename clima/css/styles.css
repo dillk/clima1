@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.hide {
+  display: none !important;
+}
+
+.container {
+  background-color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.8rem;
+  color: #ffffff;
+  max-width: 400px;
+}
+
+.form-input-container {
+  display: flex;
+}
+
+.form button {
+  padding: 0.8rem;
+  min-width: 45px;
+  margin-left: 8px;
+  background-color: #ffffff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#weather-data,
+#error-message,
+#loader {
+  border-top: 1px solid #fff;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  text-align: center;
+}
+
+#weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i {
+  font-size: 1rem;
+}
+
+#weather-data span {
+  margin: 0.5rem;
+}
+
+#temperature {
+  font-size: 4rem;
+}
+
+#country {
+  height: 15px;
+}
+
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4rem 0;
+}
+
+#description {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container #umidity {
+  border-right: 1px solid #fff;
+  margin: 0.4rem;
+  padding: 0.4rem;
+}
